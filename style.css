@@ -1,0 +1,155 @@
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-group span{
+	right: 15px;
+	top: 6px;
+}
+/*common css*/
+.twitter{
+	color: #1DA1F2;
+}
+.facebook{
+	color: #3B5998;
+}
+.google{
+	color: #D61616;
+}
+.youtube{
+	color: #F61C0D;
+}
+.snapchat{
+	color: #FFFC00;
+}
+.mail{
+	color: #8CB74C;
+}
+.user{
+	color: #FCB22B;
+}
+
+.html{
+	color: #E44D26;
+}
+
+.apple{
+	color: #666666;
+}
+.headphone{
+	color: #82AF48;
+}
+.hml{
+	color: #EC4C3C;
+}
+.last{
+	color:#F5B829;	
+}
+
+/*common css*/
+
+
+.body1{
+	/*border: 2px solid red;*/
+	
+}
+.body2{
+	/*border: 2px solid blue;*/
+}
+
+.man_icon{
+	border: 1px solid silver;
+	text-align: center;
+}
+
+
+.frm1 h4, .frm2 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.btn_right{
+	float: right;
+	
+}
+.btn-default{
+	background-color: #1DA1F2;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #458EC5;
+    border: none;
+    
+    }
+ .navbar-default .navbar-nav>li>a {
+ 	color: white;
+ 	font-family: 'Open Sans', sans-serif;
+ 	}
+ .navbar-default .navbar-nav>li>a:hover {
+ 	color: gold;
+ }
+
+ .body2_content1{
+ 	border: 2px solid silver;
+ 	padding: 10px;
+ 	margin-bottom: 30px;
+ }
+
+.body2_content1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.body2_content1 label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.body2_content1 i{
+	margin-left: 70%;
+}
+
+ .body2_content2{
+ 	border: 2px solid silver;
+ 	padding: 30px;	
+ }
+
+.body2_content2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-left: 35px;
+}
+.body2_content1 i{
+	margin-left: 70%;
+}
+
+
+
+/*media quary*/
+
+@media (max-width: 767px) { 
+	.form-group span{
+	
+	top: 228px;
+}
+
+	.body2_content1 {
+		margin-top: 25px;
+		}
+	.btn-default {
+		margin-right: 82px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	
+
+ }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
